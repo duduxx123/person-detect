@@ -1,0 +1,14 @@
+tracker_type: botsort
+track_high_thresh: 0.25
+track_low_thresh: 0.1
+new_track_thresh: 0.25
+track_buffer: 120
+match_thresh: 0.8
+fuse_score: True
+gmc_method: sparseOptFlow
+proximity_thresh: 0.65
+appearance_thresh: 0.35
+with_reid: True
+reid_weights_path: ./osnet_x0_5_msmt17_combineall_256x128_amsgrad_ep150_stp60_lr0.0015_b64_fb10_softmax_labelsmooth_flip_jitter.pth
+reid_input_width: 128
+reid_input_height: 256
